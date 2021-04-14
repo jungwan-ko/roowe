@@ -1,0 +1,351 @@
+body{
+    background-color: #ffffff;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial;
+    font-size: .8125rem;
+    letter-spacing: .1px;
+}
+.br-pageheader {
+    
+    background-color:transparent;
+    
+}
+
+.br-pagetitle h4{
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #505050;
+    text-shadow: #fff 0 1px;
+    margin: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.br-pagetitle small{
+    
+        font-weight: 400;
+        color: #838383;
+        margin-bottom: 0;
+        font-size: .875rem;
+    
+}
+.sidebar-top{
+    position: relative;
+    width: 230px;
+    height: 9.53rem;
+    color: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
+    -webkit-transition: all .7s cubic-bezier(.34,1.25,.3,1);
+    transition: all .7s cubic-bezier(.34,1.25,.3,1);
+    margin-left:-10px;
+}
+.sidebar-top img.cover {
+    opacity: .5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: auto;
+}
+.sidebar-top img.cover {
+    background-size: cover;
+}
+.sidebar-top img.cover {
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.sidebar-top  .profile-image {
+    width: 3.125rem;
+    height: auto;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+.profile-image {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.sidebar-top .info-card-text {
+    margin-left: 1rem;
+    color: inherit;
+    text-shadow: #000 0 1px;
+    z-index: 1;
+    position: relative;
+    line-height: normal;
+}
+.info-card-text {
+    font-size: .875rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+
+.br-pageheader .breadcrumb-item.active{
+    color: #0866C6;
+}
+
+
+
+.br-pagetitle {
+    padding-top: 0px !important;
+    padding-left: 25px !important;
+}
+.br-pagetitle > div {
+    padding-left: 10px !important;
+ 
+}
+.br-pagetitle .icon {
+    font-size: 55px;
+    line-height: 0;
+    color: #343a40;
+}
+
+.collapsed-menu .profile-image {
+    margin-left: -15px;
+}
+
+
+.br-pagebody {
+    margin-top: 10px;
+    padding: 0 15px;
+    margin-bottom: 60px;
+  }
+  @media (min-width: 576px) {
+    .br-pagebody {
+      padding: 0 30px;
+    }
+  }
+  
+
+
+  /* kanban */
+  .kanban{
+  
+  }
+    .kanban.category{
+        border-right: dotted 1px rgb(197, 197, 197);
+    }
+    .kanban-title{
+        font-size: 14px;
+    }
+    .kanban.category:last-child{
+        border-right:transparent;
+    }
+    .kanban.category .card{
+        margin-top: 5px;;
+    }
+    .kanban.category .card-body{
+        padding:10px;
+    }
+    .kanban.category .card-title{
+        margin-bottom:5px;
+    }
+
+    .kanban.category .card-body h5{
+        font-size:1.0rem;
+    }
+
+    .kanban.category .card-wrap{
+        padding:3px;
+      
+    }
+
+    .card.red{
+        border-top:2px solid tomato;
+    }
+
+
+    .card.signin{
+        display: table;
+        width: 100%;
+        min-width: 320px;
+        max-width: 520px;
+        height:700px;
+        border-collapse: separate;
+        border:solid 1px #fff;
+    }
+    .card.card.signin .card-body{
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 3px;
+    }
+
+
+
+    .wrap_btn .btn_confirm {
+        margin-top:27px;
+        background-color: #ffe500 !important;
+    }
+    .wrap_btn .btn_g {
+        display: block;
+        width: 100%;
+        height: 50px;
+        padding: 0;
+        border: 0;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #333;
+        background-color: #f6f6f6;
+        cursor: pointer;
+    
+    }
+
+
+    .modal-header{
+        padding: 9px;
+    }
+    .form-input{
+        background-color: #fafbfc;
+        font-size: 12px;
+    }
+    .btn-icon.btn-sm{
+        width: 35px;
+        height: 35px;
+    }
+    .calendar table{
+        min-height:650px;
+    }
+    .calendar table td{
+        
+        padding: 10px ;
+        overflow-x: hidden;
+    }
+    .calendar table th{
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .calendar .active.selected{
+        padding: 5px;
+        background-color:#ff42d0;
+        color: #fff;
+        border-radius: 20px;
+    }
+
+    table.vertical-middle td{
+        vertical-align: middle;
+    }
+
+    .list-rple .list-group-item{
+        background-color: #f8f9fa;
+        border-top:0px;
+    }
+    
+    .list-rple .list-group-item:first-child{
+        border-top: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    
+    .btn-group-xs .btn{
+        padding: 0.38rem 0.25rem;
+        font-size: 0.775rem;
+        line-height: 1.1;
+        border-radius: 0.2rem;
+    }
+    @media (min-width: 1200px){
+        .modal-lg {
+            
+            min-width: 1140px;
+            max-width: 1140px !important;
+        }
+    }
+    
+
+.modal-editor .ql-editor{
+    height: 450px;
+
+    border:none;
+}
+.ql-toolbar.ql-snow {
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
+    border-bottom: 0px !important;
+}
+.ql-container.ql-snow {
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
+    
+}
+
+
+.board_content_body{
+margin: 0;
+padding: 20px;
+
+border: 0;
+word-break: break-all;
+width: 100%;
+font-family: Noto Sans KR;
+line-height: 1.5em;
+font-size: 16px;
+box-sizing: border-box;
+}
+.board_content_body p {
+    padding: 0;
+    margin: 1em 0;
+    line-height: 1.5em;
+}
+.list-group.only-title .list-group-item{
+ 
+    padding: 0.3rem 1.25rem;
+}
+
+.bd-callout-warning {
+    border-left: 2px solid  #f0ad4e;
+    padding: 3px;
+    padding-left: 8px;
+    margin-bottom: 3px;
+}
+
+.table.default td{
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'AppleSDGothicNeo-Light','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;
+    color: #868ba1;;
+    border-top: 1px solid #eeeeee;
+}
+.table.default td .icon{
+    position: relative;
+    font-size: 18px;
+    color:#dddddd;
+    top:-3px;
+    
+}
+
+.editor-wrap{
+    min-height: 450px;
+}
+.ql-editor{
+    min-height: 450px;
+}
+.ql-toolbar.ql-snow{
+    border: none  !important;
+}
+
+.ql-container.ql-snow{
+    border-left:0px  !important;
+    border-right:0px  !important;
+}
+
+
+.file-list-box{
+    margin: 3px;
+    border: 1px solid #eeeeee;
+    background-color: #fafbfc;
+}
+.file-list-box table tbody td{
+    border: 0px !important;
+}

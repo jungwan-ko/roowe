@@ -1,0 +1,343 @@
+body{
+    background-color: #edf2f9;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial;
+    font-size: .8125rem;
+    letter-spacing: .1px;
+}
+.br-pageheader {
+    
+    background-color:transparent;
+    
+}
+
+.br-pagetitle h4{
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #505050;
+    text-shadow: #fff 0 1px;
+    margin: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.br-pagetitle small{
+    
+        font-weight: 400;
+        color: #838383;
+        margin-bottom: 0;
+        font-size: .875rem;
+    
+}
+.sidebar-top{
+    position: relative;
+    width: 230px;
+    height: 9.53rem;
+    color: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
+    -webkit-transition: all .7s cubic-bezier(.34,1.25,.3,1);
+    transition: all .7s cubic-bezier(.34,1.25,.3,1);
+    margin-left:-10px;
+}
+.sidebar-top img.cover {
+    opacity: .5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: auto;
+}
+.sidebar-top img.cover {
+    background-size: cover;
+}
+.sidebar-top img.cover {
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.sidebar-top  .profile-image {
+    width: 3.125rem;
+    height: auto;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+.profile-image {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.sidebar-top .info-card-text {
+    
+    color: inherit;
+    text-shadow: #000 0 1px;
+    z-index: 1;
+    position: relative;
+    line-height: normal;
+}
+.info-card-text {
+    font-size: .875rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+
+.br-pagebody .br-pagetitle{
+    padding-left: 0px !important;
+}
+
+.br-pageheader .breadcrumb-item.active{
+    color: #0866C6;
+}
+
+
+
+.br-pagetitle {
+    padding-top: 0px !important;
+    padding-left: 25px !important;
+}
+.br-pagetitle > div {
+    padding-left: 10px !important;
+ 
+}
+.br-pagetitle .icon {
+    font-size: 55px;
+    line-height: 0;
+    color: #343a40;
+}
+
+.collapsed-menu .profile-image {
+    margin-left: -15px;
+}
+
+
+.br-pagebody {
+    margin-top: 10px;
+    padding: 0 15px;
+  }
+  @media (min-width: 576px) {
+    .br-pagebody {
+      padding: 0 30px;
+    }
+  }
+  
+
+
+  /* kanban */
+  .kanban{
+  
+  }
+    .kanban.category{
+        border-right: dotted 1px rgb(197, 197, 197);
+    }
+    .kanban-title{
+        font-size: 14px;
+    }
+    .kanban.category:last-child{
+        border-right:transparent;
+    }
+    .kanban.category .card{
+        margin-top: 5px;;
+    }
+    .kanban.category .card-body{
+        padding:10px;
+    }
+    .kanban.category .card-title{
+        margin-bottom:5px;
+    }
+
+    .kanban.category .card-body h5{
+        font-size:1.0rem;
+    }
+
+    .kanban.category .card-wrap{
+        padding:3px;
+      
+    }
+
+
+ 
+
+    .card.red{
+        border-top:2px solid tomato;
+    }
+
+
+    .card.signin{
+        display: table;
+        width: 100%;
+        min-width: 320px;
+        max-width: 520px;
+        height:700px;
+        border-collapse: separate;
+        border:solid 1px #fff;
+    }
+    .card.card.signin .card-body{
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 3px;
+    }
+
+
+
+    .wrap_btn .btn_confirm {
+        margin-top:27px;
+        background-color: #ffe500 !important;
+    }
+    .wrap_btn .btn_g {
+        display: block;
+        width: 100%;
+        height: 50px;
+        padding: 0;
+        border: 0;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #333;
+        background-color: #f6f6f6;
+        cursor: pointer;
+    
+    }
+
+
+    .modal-header{
+        padding: 9px;
+    }
+
+    .form-input{
+        background-color: #fafbfc;
+        font-size: 12px;
+    }
+
+    .btn-icon.btn-sm{
+        width: 35px;
+        height: 35px;
+    }
+
+    .col-md-3.bd-r-1{
+        border-right: 1px solid rgba(0, 0, 0, 0.125) !important;
+    }
+
+
+    .bd-t-1-gray{
+        border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
+    }
+
+    .card-body .card{
+        border:none;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .card-body .card .card-body{
+       
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 3px;
+        margin-bottom: 9px;
+        margin-top: 9px;
+    }
+
+    .bd-r-dot-1{
+     
+        border-right: 1px dotted rgba(0, 0, 0, 0.125);
+    }
+
+    #map{
+     
+     width: 100%;
+     height: 750px;
+    }
+    #wind-rose{
+        margin-top: 10px;
+        width:260px;
+        height:200px;
+    }
+
+    .toolbar-top{
+        position: absolute;
+        top:0px;
+        right: 50px;
+        padding-top: 9px;
+    }
+    .toolbar-top .thumb-btn{
+       display: inline-block;
+        width: 64px;
+        height: 58px;
+    }
+
+    .toolbar-right{
+        position: absolute;
+        top:80px;
+        right: 50px;
+        background-color: white;
+        border: 1px solid #bebebe;
+        border-radius: 3px;
+    }
+    .toolbar-right .icn-btn{
+        width: 37px;
+     
+        border-bottom: 1px solid #bebebe;
+    }
+    .toolbar-right .icn-btn:last-child{
+        border:none;
+    }
+    .toolbar-right button{
+        border: none;
+        background-color: white;
+        width: 37px;
+        height: 37px;
+      
+    }
+    .thumb-btn a{
+        display: block;
+        width: 64px;
+        height: 58px;
+        padding: 0px;
+        border: 1px solid #838383;
+        cursor: pointer;
+        
+    }
+    .thumb-btn a span{
+        position: relative;
+        display: block;
+        height: 20px;
+        width:62px;
+        background-color:white;
+        font-size: 10px;
+        top:36px;
+        text-align: center;
+        line-height: 21px;
+    }
+    .map-normal{ background-image:url('../../../commons/images/normalmap.png');   
+        background-size: 62px;
+      }
+    .map-photo{ background-image:url('../../../commons/images/statelite.png');   
+        background-size: 62px;
+      }
+    
+      .icn-btn button i{
+        display: block;
+          margin-top: 2px;
+          margin-left: 3px;
+      }
+      .icn-btn button span{
+          display: block;
+          font-size: 11px;
+          
+      }

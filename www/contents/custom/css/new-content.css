@@ -1,0 +1,140 @@
+@charset "utf-8";
+.widget-2 .card-title.project-title{ font-size:18px !important; }
+.widget-2 .card-header .btn-group.tabbar a.btn{ padding: 0 10px;line-height:35px; color:#333; background-color:#f8f9fa; }
+.widget-2 .card-header .btn-group.tabbar a.btn.active{ color:#fff; background-color:#122253; }
+.widget-2 .card-header .btn-group.tabbar a.btn ion-icon{ position:relative; top:6px; font-size:20px; }
+
+.manage-title{ margin-bottom:20px; }
+.manage-title:after{ display:block; content:''; clear:both; }
+.manage-title b{ float:left; margin-right:12px; line-height:28px; font-size:15px; color:#222; }
+.manage-title .btn-group-xs{ float:left; }
+.manage-title .btn-group-xs .btn{ padding:0; width:80px; height:29px; line-height:28px; color:#fff; background:#00aeef; border:0px none; } 
+.manage-title .btn-group-xs .btn ion-icon{ position:relative; top:2px; }
+.manage-title .search-box{ float:right; }
+.manage-title .search-box select{ width:110px; height:28px; font-size:12px; border:1px solid #d9d9d9; border-radius:5px; }
+.manage-title .search-box .text-box{ width:202px; height:28px; border:1px solid #d9d9d9; border-radius:5px; }
+.manage-title .search-box .search-button{ margin-right:5px; width:30px; height:28px; vertical-align:top; color:#fff; background:#122253; border:0px none; border-radius:5px; }
+.manage-title .search-box .search-button ion-icon{ padding-top:3px; width:18px; height:18px; overflow:hidden; }
+.manage-title .search-box .card-type-btn,
+.manage-title .search-box .list-type-btn{ margin-right:2px; width:30px; height:28px; vertical-align:top; color:#6c7284; background:#e7ebf0; border:1px solid #dbe1e8; border-radius:5px; }
+.manage-title .search-box .card-type-btn.active,
+.manage-title .search-box .list-type-btn.active{ color:#122253; background:#fff; border:1px solid #122253; }
+.manage-title .search-box .card-type-btn ion-icon{ padding-top:5px; width:15px; height:15px; overflow:hidden; }
+.manage-title .search-box .list-type-btn ion-icon{ padding-top:3px; width:18px; height:20px; overflow:hidden; }
+.manage-title .search-box .all-type-btn{ width:88px; height:28px; font-size:12px; color:#6c7284; background:#e7ebf0; border:1px solid #dbe1e8; border-radius:5px; }
+
+.kanban.category.card-list .kanban-title{ padding-left:13px; height:37px; line-height:37px; color:#fff; border-radius:3px; }
+.kanban.category.card-list .card{ overflow:hidden; }
+.kanban.category.card-list .card-body{ padding:0; }
+.kanban.category.card-list .card-body .kanban-dl{ margin-bottom:0; padding:18px 25px; }
+.kanban.category.card-list .card-body .kanban-dl:after{ display:block; content:''; clear:both; }
+.kanban.category.card-list .card-body .kanban-dl dt,
+.kanban.category.card-list .card-body .kanban-dl dd{ padding:2px 0; }
+.kanban.category.card-list .card-body .kanban-dl dt{ font-weight:bold; color:#28292d; }
+.kanban.category.card-list .card-body .kanban-dl dd.prg{ position:relative; padding-left:12px; }
+.kanban.category.card-list .card-body .kanban-dl dd.prg:before{ position:absolute; left:2px; }
+.kanban.category.card-list .card-body .kanban-dl dd.item::before{ display:none; }
+.kanban.category.card-list .card-body .kanban-dl dd.take span{ display:block; text-align:center; }
+.kanban.category.card-list .card-body .kanban-dl dd.take span.step{ font-weight:normal;}
+.kanban.category.card-list .card-body .kanban-dl dd.take.current span.step{ color:#e42e1b; }
+.kanban.category.card-list .card-body .kanban-dl dd.take.current span.name{ position:relative; }
+.kanban.category.card-list .card-body .kanban-dl dd.take.current span.name:after{ display:block; content:''; position:absolute; top:0px; left:-5px; right:-5px; bottom:0px; border:1px solid #e42e1b; border-radius:50px; }
+.kanban.category.card-list .card-title{ margin:0; padding:0 25px; line-height:50px; background:#f9fafc; }
+.kanban.category.card-list .card-title a{ display:block; position:relative; }
+.kanban.category.card-list .card-title a ion-icon{ position:absolute; top:12px; right:0; width:20px; height:20px; color:#697082; }
+.kanban.category.card-list.type1 .kanban-title{ background:#768cd9; } 
+.kanban.category.card-list.type2 .kanban-title{ background:#e6b75e; }
+.kanban.category.card-list.type3 .kanban-title{ background:#00989e; }
+.kanban.category.card-list.type4 .kanban-title{ background:#e42e1b; }
+.kanban.category.card-list.type1 .card{ border:1px solid #bbc7f0; }
+.kanban.category.card-list.type1 .card .card-title a{ color:#2f56e7; }
+.kanban.category.card-list.type2 .card{ border:1px solid #e3cc9f; }
+.kanban.category.card-list.type2 .card .card-title a{ color:#dd9a18; }
+.kanban.category.card-list.type3 .card{ border:1px solid #a6dae3; }
+.kanban.category.card-list.type3 .card .card-title a{ color:#00989e; }
+.kanban.category.card-list.type4 .card{ border:1px solid #ecb5af; }
+.kanban.category.card-list.type4 .card .card-title a{ color:#e42e1b; }
+.kanban.category.card-list .kanban-right{ float:right; margin-right:15px; font-size:12px; color:#fff; }
+.kanban.category.card-list .kanban-right ion-icon{ position:relative; top:1px; }
+.kanban.category.card-list .card-wrap{ padding:0; }
+
+.listform{ border-top:1px solid #1d398d; }
+.listform.w70p{ width:70%; }
+.listform.f-right{ float:right; }
+.listform .table{ margin-bottom:0; border:1px solid #d9d9d9; border-top:0px none; border-collapse:collapse; }
+.listform .table thead th{ vertical-align:middle; font-size:12px; background:#eceff3; border-right:1px solid #dee2e6; }
+.listform .table thead th:last-child{ border-right:0px none; }
+.listform .table tbody td{ font-size:12px; color:#333; border-right:1px solid #dee2e6; }
+.listform .table tbody td:last-child{ border-right:0px none; }
+.listform .table tbody td.project-file > p{ margin-bottom:8px; }
+.listform .table tbody td.project-file > span{ float:left; margin-right:13px; }
+.listform .table tbody td.project-file > ul{ float:left; margin:0; padding-left:0; }
+.listform .table tbody td.project-file > ul > li{ position:relative; float:left; padding:0 13px; list-style:none; }
+.listform .table tbody td.project-file > ul > li:after{ display:block; content:'>'; position:absolute; top:0; left:-3px; }
+.listform .table tbody td.project-file > ul > li span.gate{ display:inline-block; margin-right:6px; width:44px; line-height:18px; text-align:center; color:#fff; background:#6c7284; border-radius:50px; }
+.listform .table tbody td.project-file > ul > li.active span.gate{ background:#e42e1b; }
+.listform .table tbody td ion-icon.icon-size-15{ width:18px; height:18px; }
+.listform .table tbody td ion-icon.color-gray{color:#767b8c;}
+.listform .table tbody td button.btn_icon{ height:20px; background:none; border:0px none; }
+.listform .table tbody td button.btn_icon ion-icon{ width:20px; height:20px; }
+.listform .table tbody td .bold-title{ font-size:14px; }
+.listform .table tbody td .color-blue{ color:#2f56e7; }
+.listform .table tbody td .color-yellow{ color:#dd9a18; }
+.listform .table tbody td .color-green{ color:#00989e; }
+
+.paging{ margin-bottom:20px; text-align:center; }
+.paging a{ display:inline-block; margin:0 2px; width:28px; height:28px; vertical-align:middle; line-height:28px; text-indent:-9999px; }
+.paging a.num{ text-indent:0; }
+.paging a.num.active{ color:#fff; background:#122253; }
+.paging a.first-page{ background:url(../../images/bim/icon_first_arrow.png) no-repeat center; border:1px solid #d9dce2; }
+.paging a.prev-page{ background:url(../../images/bim/icon_prev_arrow.png) no-repeat center; border:1px solid #d9dce2; }
+.paging a.next-page{ background:url(../../images/bim/icon_next_arrow.png) no-repeat center; border:1px solid #d9dce2; }
+.paging a.last-page{ background:url(../../images/bim/icon_last_arrow.png) no-repeat center; border:1px solid #d9dce2; }
+
+.btn-box{ margin-bottom:15px; }
+.btn-gray{ display:inline-block; width:140px; height:28px; line-height:28px; font-size:12px; text-align:center; color:#fff; background:#6c7284; border-radius:3px; }
+
+/* 팝업 */
+.h6-title{ margin-bottom:12px; font-size:15px; font-weight:bold; color:#222; }
+.user-info-inputbox{ margin-bottom:20px; padding:10px 10px 10px 20px; background:#f8f9fa; border:1px solid #d9d9d9; border-radius:3px; }
+.user-info-inputbox > div{ display:block; }
+.user-info-inputbox > div:after{ display:block; content:''; clear:both; }
+.user-info-inputbox label{ float:left; width:30%; max-width:30%; line-height:28px; color:#28292d; }
+.user-info-inputbox > div > div{ float:right; width:70%; }
+ 
+.pop-list-btn{ float:right; margin-top:-35px; }
+.pop-list-btn .btn-outline-secondary{ padding:0 10px 0 8px; line-height:28px; color:#6c7284; border:1px solid #6c7284; }
+.pop-list-btn .btn-outline-secondary ion-icon{ width:15px; height:15px; vertical-align: middle; color:#6c7284; }
+.pop-list-btn .btn-outline-secondary:hover,
+.pop-list-btn .btn-outline-secondary:hover ion-icon{ color:#fff; }
+
+.filelist-box{ float:left; width:calc(30% - 10px); height:420px; background:#f8f9fa; border:1px solid #d9d9d9; }
+
+@media (max-width: 1200px){
+    .filelist-box{ width:100%; height:auto; }
+    .listform.w70p{ width:100%; }
+}
+
+@media (max-width: 1180px){
+    .kanban.category.card-list .card-title{ padding:0 10px; line-height:38px; }
+    .kanban.category.card-list .card-title a ion-icon{ top:8px; }
+    .kanban.category.card-list .card-body .kanban-dl{ padding:10px }
+    .kanban.category.card-list .card{ display:block; overflow:visible; }
+}
+
+@media (max-width: 991px){
+    .widget-2 .card-header{ display:block; }
+    .widget-2 .card-header .project-title{ margin-bottom:5px; }
+    .widget-2 .card-header .btn-group.tabbar{ display:block; width:100%; }
+    .widget-2 .card-header .btn-group.tabbar a.btn{ float:left; padding:0 5px; width:33.3333%; line-height:30px; font-size:12px; }
+    .manage-title .btn-group-xs{ margin-bottom:10px; }
+    .manage-title .search-box{ width:100%; }
+    .card-list{ margin-bottom:15px; }
+}
+
+@media (max-width: 640px){
+    .widget-2 .card-header .btn-group.tabbar a.btn{ width:50%; }
+    .listform .table{ width:100%; }
+    .listform .table thead th{ padding:5px; word-break:break-all; }
+    .listform .table tbody td{ word-break:break-all; }
+}

@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Bracket CSS -->
-    <link href="/roowe/www/contents/template/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="/roowe/www/contents/template/lib/Ionicons/css/ionicons.css" rel="stylesheet">
-    <link href="/roowe/www/contents/template/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
-    <link href="/roowe/www/contents/template/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
-    <link href="/roowe/www/contents/template/lib/rickshaw/rickshaw.min.css" rel="stylesheet">
-    <link href="/roowe/www/contents/template/lib/select2/css/select2.min.css" rel="stylesheet">
-    <link href="/roowe/www/contents/template/lib/datatables/jquery.dataTables.css" rel="stylesheet">
+    <link href="./www/contents/template/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="./www/contents/template/lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="./www/contents/template/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="./www/contents/template/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+    <link href="./www/contents/template/lib/rickshaw/rickshaw.min.css" rel="stylesheet">
+    <link href="./www/contents/template/lib/select2/css/select2.min.css" rel="stylesheet">
+    <link href="./www/contents/template/lib/datatables/jquery.dataTables.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="/roowe/www/css/leaflet.css"></link>
-    <link rel="stylesheet" href="/roowe/www/css/leaflet.draw.css"></link>
+    <link rel="stylesheet" href="./www/css/leaflet.css"></link>
+    <link rel="stylesheet" href="./www/css/leaflet.draw.css"></link>
     <!-- Bracket CSS -->
-    <link rel="stylesheet" href="/roowe/www/contents/template/css/bracket.css">
-    <link rel="stylesheet" href="/roowe/www/contents/custom/css/bim.css">
-    <link rel="stylesheet" href="/roowe/www/contents/custom/css/vue-calendar-simple.css">
+    <link rel="stylesheet" href="./www/contents/template/css/bracket.css">
+    <link rel="stylesheet" href="./www/contents/custom/css/bim.css">
+    <link rel="stylesheet" href="./www/contents/custom/css/new-content.css">
+    <link rel="stylesheet" href="./www/contents/custom/css/vue-calendar-simple.css">
 
     <link href="https://cdn.quilljs.com/1.1.6/quill.snow.css" rel="stylesheet">
     <script>
@@ -28,25 +29,32 @@
      .ql-snow .ql-tooltip{
        margin-left: 200px;
      }
+     @media (min-width: 1200px) {
+   .modal-xg {
+       min-width: 90%;
+    
+   }
+}
+ 
     </style>
 </head>
 <body>
     <div id="app">
     <!-- ########## START: LEFT PANEL ########## -->
-    <div class="br-logo"><router-link to="/"><img src="/roowe/www/contents/images/bim/h1_logo.png"/></router-link></div>
+    <div class="br-logo"><router-link to="/"><img src="./www/contents/images/bim/h1_logo.png"/></router-link></div>
     <div class="br-sideleft overflow-y-auto ps ps--theme_default" data-ps-id="b5db803b-bc57-0049-eb89-a9193226c59f">
       <div class="sidebar-top">
-        <img src="/roowe/www/contents/images/avatar-admin.png" class="profile-image rounded-circle" alt="Dr. Codex Lantern">
+        <!-- <img src="./www/contents/images/avatar-admin.png" class="profile-image rounded-circle" alt="Dr. Codex Lantern"> -->
                             <div class="info-card-text">
                                 <a href="#" class="d-flex align-items-center text-white">
                                     <span class="pt-4 d-inline-block">
-                                       이곳에 프로젝트명이 출력됩니다.
+                                       후포항 1단계 건설공사
                                         
                                     </span>
                                 </a>
                                 <span class="d-inline-block text-truncate text-truncate-sm"></span>
                             </div>
-        <img src="/roowe/www/contents/images/cover-2-lg.png" class="cover"/>
+        <img src="./www/contents/images/cover-2-lg.png" class="cover"/>
       </div>
       <label class="sidebar-label pd-x-10 mg-t-20 op-3">Navigation</label>
       <ul class="br-sideleft-menu">
@@ -138,10 +146,10 @@
         <div class="navicon-left hidden-md-down"><a id="btnLeftMenu" href=""><i class="icon ion-navicon-round"></i></a></div>
         <div class="navicon-left hidden-lg-up"><a id="btnLeftMenuMobile" href=""><i class="icon ion-navicon-round"></i></a></div>
         <div class="input-group hidden-xs-down wd-170 transition">
-          <input id="searchbox" type="text" class="form-control" placeholder="Search">
+          <!-- <input id="searchbox" type="text" class="form-control" placeholder="Search">
           <span class="input-group-btn">
             <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
-          </span>
+          </span> -->
         </div><!-- input-group -->
       </div><!-- br-header-left -->
       <div class="br-header-right">
@@ -208,7 +216,7 @@
           </div><!-- dropdown -->
           <div class="dropdown">
             <a href="" class="nav-link nav-link-profile">
-              <span class="logged-name hidden-md-down">Katherine</span>
+              <span class="logged-name hidden-md-down">고정완</span>
               <img src="http://via.placeholder.com/500x500" class="wd-32 rounded-circle" alt="">
               <span class="square-10 bg-success"></span>
             </a>
@@ -276,27 +284,27 @@
 
 
     <!-- ########## END: MAIN PANEL ########## -->
-    <script src="..//roowe/www/contents/template/lib/jquery/jquery.js"></script>
-    <script src="..//roowe/www/contents/template/lib/popper.js"></script>
-    <script src="..//roowe/www/contents/template/lib/bootstrap/js/bootstrap.js"></script>
-    <script src="..//roowe/www/contents/template/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-    <script src="..//roowe/www/contents/template/lib/moment/moment.js"></script>
-    <script src="..//roowe/www/contents/template/lib/jquery-ui/jquery-ui.js"></script>
-    <script src="..//roowe/www/contents/template/lib/jquery-switchbutton/jquery.switchButton.js"></script>
-    <script src="..//roowe/www/contents/template/lib/peity/jquery.peity.js"></script>
-    <script src="..//roowe/www/contents/template/lib/d3/d3.js"></script>
-    <script src="..//roowe/www/contents/template/lib/rickshaw/rickshaw.min.js"></script>
-    <script src="..//roowe/www/contents/template/lib/Flot/jquery.flot.js"></script>
-    <script src="..//roowe/www/contents/template/lib/Flot/jquery.flot.resize.js"></script>
-    <script src="..//roowe/www/contents/template/lib/flot-spline/jquery.flot.spline.js"></script>
-    <script src="..//roowe/www/contents/template/lib/jquery.sparkline.bower/jquery.sparkline.min.js"></script>
-    <script src="..//roowe/www/contents/template/lib/echarts/echarts.min.js"></script>
-    <script src="..//roowe/www/contents/template/lib/select2/js/select2.full.min.js"></script>
-    <script src="..//roowe/www/contents/template/js/bracket.js"></script>
-    <script src="..//roowe/www/contents/template/js/ResizeSensor.js"></script>
-    <script src="..//roowe/www/contents/template/lib/datatables/jquery.dataTables.js"></script>
-    <script src="..//roowe/www/contents/template/lib/datatables-responsive/dataTables.responsive.js"></script>
-    <script src="..//roowe/www/js/models/bim/router-controller.min.js"></script>
+    <script src="./www/contents/template/lib/jquery/jquery.js"></script>
+    <script src="./www/contents/template/lib/popper.js"></script>
+    <script src="./www/contents/template/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="./www/contents/template/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="./www/contents/template/lib/moment/moment.js"></script>
+    <script src="./www/contents/template/lib/jquery-ui/jquery-ui.js"></script>
+    <script src="./www/contents/template/lib/jquery-switchbutton/jquery.switchButton.js"></script>
+    <script src="./www/contents/template/lib/peity/jquery.peity.js"></script>
+    <script src="./www/contents/template/lib/d3/d3.js"></script>
+    <script src="./www/contents/template/lib/rickshaw/rickshaw.min.js"></script>
+    <script src="./www/contents/template/lib/Flot/jquery.flot.js"></script>
+    <script src="./www/contents/template/lib/Flot/jquery.flot.resize.js"></script>
+    <script src="./www/contents/template/lib/flot-spline/jquery.flot.spline.js"></script>
+    <script src="./www/contents/template/lib/jquery.sparkline.bower/jquery.sparkline.min.js"></script>
+    <script src="./www/contents/template/lib/echarts/echarts.min.js"></script>
+    <script src="./www/contents/template/lib/select2/js/select2.full.min.js"></script>
+    <script src="./www/contents/template/js/bracket.js"></script>
+    <script src="./www/contents/template/js/ResizeSensor.js"></script>
+    <script src="./www/contents/template/lib/datatables/jquery.dataTables.js"></script>
+    <script src="./www/contents/template/lib/datatables-responsive/dataTables.responsive.js"></script>
+    <script src="./www/js/models/bim/router-controller.min.js"></script>
     <script>
         $(function () {
           'use strict'
